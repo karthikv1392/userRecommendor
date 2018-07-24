@@ -326,16 +326,12 @@ class DataGenerator():
 
 if __name__ == '__main__':
     data_generator_object = DataGenerator()
-    #data_generator_object.label_generator()
+    #user_list = data_generator_object.generate_users_basedon_ratings(100,50,50)
+    #data_generator_object.top_users_label_generator(user_list)
     #data_generator_object.generate_selected_data()
     #data_generator_object.generate_selected_rating_data()
     #data_generator_object.generate_selected_trust_data()
-    #user_list = data_generator_object.find_users_max_posts(5000,100) # Get the top 100 users in terms of content published
-
-    #print len(user_list)
-    #data_generator_object.top_users_label_generator(user_list)
-    #user_list = data_generator_object.generate_users_basedon_ratings(100,50,50)
-    #data_generator_object.top_users_label_generator(user_list)
+    
 
 
 
